@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Registros</class>
+ <widget class="QWidget" name="Registros">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>352</width>
+    <height>222</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registros</string>
+  </property>
+  <widget class="QLineEdit" name="contraE">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>72</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nombreE">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>20</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="correoE">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>46</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nombrel">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>20</y>
+     <width>37</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="correol">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>46</y>
+     <width>33</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Correo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="contral">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>72</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Contraseña</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edicionb">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edición</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="registrob">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Registro</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lecturab">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lectura</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
