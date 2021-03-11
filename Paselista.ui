@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PaseLista</class>
+ <widget class="QWidget" name="PaseLista">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Datos</string>
+  </property>
+  <widget class="QLabel" name="archivol">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>230</y>
+     <width>66</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>          Archivo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="correol">
+   <property name="geometry">
+    <rect>
+     <x>57</x>
+     <y>149</y>
+     <width>33</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Correo</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nombreE">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>123</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="informacionl">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>104</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Informacion Estudiante</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enviarb">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>201</y>
+     <width>96</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enviar informacion</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="buscarE">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>249</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="correoE">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>149</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contraE">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>175</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="archivosb">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>278</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enviar archivos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nombrel">
+   <property name="geometry">
+    <rect>
+     <x>57</x>
+     <y>123</y>
+     <width>37</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buscarb">
+   <property name="geometry">
+    <rect>
+     <x>57</x>
+     <y>249</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="contral">
+   <property name="geometry">
+    <rect>
+     <x>57</x>
+     <y>175</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Contraseña</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>37</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conexión con servidor</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="desconectarb">
+   <property name="geometry">
+    <rect>
+     <x>173</x>
+     <y>70</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Desconectar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="conectarb">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conectar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
